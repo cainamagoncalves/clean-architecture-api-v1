@@ -8,4 +8,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(userRoutes)
 
+console.log('Testing branches')
+
 export { app }
