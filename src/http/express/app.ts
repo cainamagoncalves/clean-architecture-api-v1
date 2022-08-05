@@ -9,5 +9,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(userRoutes)
 
 console.log('Testing branches')
+console.log('Test branch 2')
 
 export { app }
